@@ -57,7 +57,7 @@ $blocks = array(
     .div-square {
       display: inline-block;
       width: calc(33.3% - 5px);
-      height: calc(100% - 105px - 80px);
+      height: 600px;
       overflow: hidden;
       padding: 0;
       margin: 0;      
@@ -79,7 +79,7 @@ $blocks = array(
     }
     .button-option {
       width: calc(100% - 20px);
-      height: <?=(120/$maxNumber)?>%;
+      height: <?=(125/$maxNumber)?>%;
       margin: 5px 10px 0px 10px;
     }
     .button-option-selected {
