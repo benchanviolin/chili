@@ -89,7 +89,6 @@ $blocks = array(
     .button-submit {
       height: 60px;
       width: calc(100%);
-      margin: 15px 0 0 0;
       background-color: purple;
       color: #fff;
       font-size: 1.5em;
