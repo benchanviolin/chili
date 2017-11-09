@@ -47,6 +47,10 @@ $blocks = array(
     #header {
       height: 80px;
     }
+    #header-mobile {
+      height: 80px;
+      display: none;
+    }
     #footer {
       height: 80px;
     }
@@ -92,6 +96,12 @@ $blocks = array(
       display: none;    
     }
     @media only screen and (max-width: 768px) {
+      #header {
+        display: none;
+      }
+      #header-mobile {        
+        display: block;
+      }
       .div-square {
         width: calc(100% - 5px);
         margin-bottom: 20px;
@@ -102,6 +112,7 @@ $blocks = array(
 </head>
 <body>
   <h1 id="header">Select your favorite number for each category below:</h1>
+  <h1 id="header-mobile">Select your favorite numbers:</h1>
   <?php foreach($blocks as $block) { ?>
   <div class="div-square">
     <div class="header" style="background-color: <?=$block['background-color']?>">
