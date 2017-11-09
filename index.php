@@ -90,6 +90,12 @@ $blocks = array(
       font-size: 1.5em;
       display: none;    
     }
+    @media only screen and (max-width: 768px) {
+      .div-square {
+        width: calc(100% - 5px);
+        margin-bottom: 20px;
+      }
+    }
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
