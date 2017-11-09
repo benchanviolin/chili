@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'on');
+
 $maxNumber = 20; 
 $blocks = array(
   array(
@@ -101,7 +104,7 @@ $blocks = array(
     <div class="option">
       <button class="button-option button-option-<?=$block['id']?>" data-block-id="<?=$block['id']?>"><?=$i?></button>
     </div>
-    <? } ?>
+    <?php } ?>
   </div>  
   <?php } ?>
   <div class="clearfix"></div>  
